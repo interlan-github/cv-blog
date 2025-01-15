@@ -31,20 +31,20 @@
     <!-- <link href="stylesheets/vendors/animate.min.css" rel="stylesheet"> -->
 
     <!-- MAGNIFICENT POPUP -->
-    <link href="stylesheets/vendors/magnific-popup.css" rel="stylesheet">
+    <!-- <link href="stylesheets/vendors/magnific-popup.css" rel="stylesheet"> -->
 
     <!-- SWIPER -->
-    <link href="stylesheets/vendors/swiper.min.css" rel="stylesheet">
+    <!-- <link href="stylesheets/vendors/swiper.min.css" rel="stylesheet"> -->
 
 
     <!-- MATERIALIZE -->
-    <link href="stylesheets/vendors/materialize.css" rel="stylesheet">
+    <!-- <link href="stylesheets/vendors/materialize.css" rel="stylesheet">  -->
     <!-- BOOTSTRAP -->
-    <link href="stylesheets/vendors/bootstrap.min.css" rel="stylesheet">
+    <!-- <link href="stylesheets/vendors/bootstrap.min.css" rel="stylesheet"> -->
 
 
     <!-- CUSTOM STYLE -->
-    <link href="stylesheets/style.css" id="switch_style" rel="stylesheet">
+    <!--  <link href="stylesheets/style.css" id="switch_style" rel="stylesheet"> -->
   
   
 </head>
@@ -1529,16 +1529,16 @@
 <!--==========================================
                   SCRIPTS
 ===========================================-->
-<script src="javascript/vendors/jquery-2.1.3.min.js"></script>
-<script src="javascript/vendors/bootstrap.min.js"></script>
-<script src="javascript/vendors/materialize.min.js"></script>
-<script src="https://maps.googleapis.com/maps/api/js?key=YOUR API KEY"></script>
-<script src="javascript/vendors/markerwithlabel.min.js"></script>
-<script src="javascript/vendors/retina.min.js"></script>
-<script src="javascript/vendors/scrollreveal.min.js"></script>
-<script src="javascript/vendors/swiper.jquery.min.js"></script>
-<script src="javascript/vendors/jquery.magnific-popup.min.js"></script>
-<script src="javascript/custom.js"></script>
+<?php wp_footer() ?>
+<!-- <script src="javascript/vendors/jquery-2.1.3.min.js"></script> -->
+<!--  <script src="javascript/vendors/bootstrap.min.js"></script> -->
+<!--  <script src="javascript/vendors/materialize.min.js"></script>  -->
+<!--  <script src="javascript/vendors/markerwithlabel.min.js"></script>   -->
+<!--  <script src="javascript/vendors/retina.min.js"></script>  -->
+<!--  <script src="javascript/vendors/scrollreveal.min.js"></script>  -->
+<!--  <script src="javascript/vendors/swiper.jquery.min.js"></script>  -->
+<!--  <script src="javascript/vendors/jquery.magnific-popup.min.js"></script>   -->
+<!--  <script src="javascript/custom.js"></script> -->
 
 </body>
 </html>
