@@ -10,12 +10,12 @@
 
 
     <title>Flatrica | Material CV/Resume</title>
-    <link rel="icon" href="images/site/fav-icon.png">
+    <link rel="icon" href="<?php bloginfo('template_url'); ?>/images/site/fav-icon.png">
 
     <?php wp_head() ?>
 
     <!--APPLE TOUCH ICON-->
-    <link rel="apple-touch-icon" href="images/site/apple-touch-icon.png">
+    <link rel="apple-touch-icon" href="<?php bloginfo('template_url'); ?>/images/site/apple-touch-icon.png">
 
 
     <!-- GOOGLE FONT -->
@@ -80,7 +80,7 @@
 
             <!--PERSONAL LOGO-->
             <div class="logo-flat">
-                <img alt="personal-logo" class="img-responsive" src="images/profile/john.png">
+                <img alt="personal-logo" class="img-responsive" src="<?php bloginfo('template_url'); ?>/images/profile/john.png">
             </div>
             <br>
 
@@ -127,7 +127,7 @@
 
                     <!-- PROFILE PICTURE -->
                     <div id="profile" class="right">
-                        <img alt="profile-image" class="img-responsive" src="images/profile/profile.png">
+                        <img alt="profile-image" class="img-responsive" src="<?php bloginfo('template_url'); ?>/images/profile/profile.png">
                         <div class="slant"></div>
 
                         <!--EMPTY PLUS BUTTON-->
@@ -201,7 +201,7 @@
                         </div>
                     </div>
                     <!--HTML 5 VIDEO-->
-                    <!-- <video id="html-video" class="video" poster="images/poster/poster.jpg" controls>
+                    <!-- <video id="html-video" class="video" poster="<?php bloginfo('template_url'); ?>/images/poster/poster.jpg" controls>
                         <source src="videos/........" type="video/webm">
                         <source src="videos/..........." type="video/mp4">
                     </video>-->
@@ -255,7 +255,7 @@
     <div class="container">
         <!-- SECTION TITLE -->
         <div class="section-title">
-            <h4 class="text-uppercase text-center"><img src="images/icons/book.png" alt="demo">Education</h4>
+            <h4 class="text-uppercase text-center"><img src="<?php bloginfo('template_url'); ?>/images/icons/book.png" alt="demo">Education</h4>
         </div>
 
         <div id="timeline-education">
@@ -446,7 +446,7 @@
     <div class="container">
         <!-- SECTION TITLE -->
         <div class="section-title">
-            <h4 class="text-uppercase text-center"><img src="images/icons/mixer.png" alt="demo">Skills</h4>
+            <h4 class="text-uppercase text-center"><img src="<?php bloginfo('template_url'); ?>/images/icons/mixer.png" alt="demo">Skills</h4>
         </div>
         <div class="row">
             <div class="col-md-12 col-sm-12 col-xs-12">
@@ -563,7 +563,7 @@
     <div class="container">
         <!-- SECTION TITLE -->
         <div class="section-title">
-            <h4 class="text-uppercase text-center"><img src="images/icons/layers.png" alt="demo">Experience</h4>
+            <h4 class="text-uppercase text-center"><img src="<?php bloginfo('template_url'); ?>/images/icons/layers.png" alt="demo">Experience</h4>
         </div>
 
         <div id="timeline-experience">
@@ -708,7 +708,7 @@
                 </div>
                 <!--MODAL BODY-->
                 <div class="modal-body">
-                    <img class="img-responsive" alt="graduation" src="images/timeline/demo-gra.jpg">
+                    <img class="img-responsive" alt="graduation" src="<?php bloginfo('template_url'); ?>/images/timeline/demo-gra.jpg">
                     <p>
                         I have learned a great many things from participating in varsity football.
                         It has changed my entire outlook on and attitude toward life. Before my
@@ -779,7 +779,7 @@
                 </div>
                 <!--MODAL BODY-->
                 <div class="modal-body">
-                    <img class="img-responsive" alt="graduation" src="images/timeline/demo-gra.jpg">
+                    <img class="img-responsive" alt="graduation" src="<?php bloginfo('template_url'); ?>/images/timeline/demo-gra.jpg">
                     <p>
                         I have learned a great many things from participating in varsity football.
                         It has changed my entire outlook on and attitude toward life. Before my
@@ -868,7 +868,7 @@
     <div class="container">
         <!-- SECTION TITLE -->
         <div class="section-title">
-            <h4 class="text-uppercase text-center"><img src="images/icons/safe.png" alt="demo">Portfolios</h4>
+            <h4 class="text-uppercase text-center"><img src="<?php bloginfo('template_url'); ?>/images/icons/safe.png" alt="demo">Portfolios</h4>
         </div>
         <div id="portfolios-card" class="row">
 
@@ -895,11 +895,11 @@
                     <!--CATEGORY CONTENT ONE BIG-->
                     <div class="col-md-4 col-sm-12 col-xs-12 grid big inLeft">
                         <figure class="port-effect-scale">
-                            <img src="images/portfolios/big-1.jpg" class="img-responsive" alt="portfolio-demo"/>
+                            <img src="<?php bloginfo('template_url'); ?>/images/portfolios/big-1.jpg" class="img-responsive" alt="portfolio-demo"/>
                             <figcaption>
                                 <h2>Lightbox <span> IMAGE</span></h2>
                                 <p>Two Hover Effect For Portfolio Grid Blocks. Its Scale</p>
-                                <a href="images/portfolios/big-1.jpg" class="popup-image" data-effect="mfp-3d-unfold">View
+                                <a href="<?php bloginfo('template_url'); ?>/images/portfolios/big-1.jpg" class="popup-image" data-effect="mfp-3d-unfold">View
                                     more</a>
                             </figcaption>
                         </figure>
@@ -908,7 +908,7 @@
                     <!--CATEGORY CONTENT TWO SMALL-->
                     <div class="col-md-4 col-sm-6 col-xs-12 grid inRight">
                         <figure class="port-effect-scale">
-                            <img src="images/portfolios/portfolio-1.jpg" class="img-responsive" alt="portfolio-demo"/>
+                            <img src="<?php bloginfo('template_url'); ?>/images/portfolios/portfolio-1.jpg" class="img-responsive" alt="portfolio-demo"/>
                             <figcaption>
                                 <h2><i class="fa fa-play-circle" aria-hidden="true"></i>Lightbox <span> Video</span>
                                 </h2>
@@ -921,11 +921,11 @@
                     <!--CATEGORY CONTENT THREE SMALL-->
                     <div class="col-md-4 col-sm-6 col-xs-12 grid inRight">
                         <figure class="port-effect-up">
-                            <img src="images/portfolios/portfolio-2.jpg" class="img-responsive" alt="portfolio-demo"/>
+                            <img src="<?php bloginfo('template_url'); ?>/images/portfolios/portfolio-2.jpg" class="img-responsive" alt="portfolio-demo"/>
                             <figcaption>
                                 <h2>Lightbox <span> IMAGE</span></h2>
                                 <p>Two Hover Effect For Portfolio Grid Blocks. Its Up</p>
-                                <a href="images/portfolios/portfolio-2.jpg" class="popup-image"
+                                <a href="<?php bloginfo('template_url'); ?>/images/portfolios/portfolio-2.jpg" class="popup-image"
                                    data-effect="mfp-move-horizontal">View more</a>
                             </figcaption>
                         </figure>
@@ -939,11 +939,11 @@
                     <!--CATEGORY CONTENT ONE BIG-->
                     <div class="col-md-4 col-sm-12 col-xs-12 grid big inRight">
                         <figure class="port-effect-up">
-                            <img src="images/portfolios/big-2.jpg" class="img-responsive" alt="portfolio-demo"/>
+                            <img src="<?php bloginfo('template_url'); ?>/images/portfolios/big-2.jpg" class="img-responsive" alt="portfolio-demo"/>
                             <figcaption>
                                 <h2>Lightbox <span> IMAGE</span></h2>
                                 <p>Effect also available for Lightbox Image Check The Doc</p>
-                                <a href="images/portfolios/big-2.jpg" class="popup-image"
+                                <a href="<?php bloginfo('template_url'); ?>/images/portfolios/big-2.jpg" class="popup-image"
                                    data-effect="mfp-move-from-top">View more</a>
                             </figcaption>
                         </figure>
@@ -952,11 +952,11 @@
                     <!--CATEGORY CONTENT TWO SMALL-->
                     <div class="col-md-4 col-sm-6 col-xs-12 grid inLeft">
                         <figure class="port-effect-scale">
-                            <img src="images/portfolios/portfolio-3.jpg" class="img-responsive" alt="portfolio-demo"/>
+                            <img src="<?php bloginfo('template_url'); ?>/images/portfolios/portfolio-3.jpg" class="img-responsive" alt="portfolio-demo"/>
                             <figcaption>
                                 <h2>Lightbox <span> IMAGE</span></h2>
                                 <p>Used latest material design to make this sample</p>
-                                <a href="images/portfolios/portfolio-3.jpg" class="popup-image"
+                                <a href="<?php bloginfo('template_url'); ?>/images/portfolios/portfolio-3.jpg" class="popup-image"
                                    data-effect="mfp-3d-unfold">View more</a>
                             </figcaption>
                         </figure>
@@ -966,11 +966,11 @@
                     <!--CATEGORY CONTENT THREE SMALL-->
                     <div class="col-md-4 col-sm-6 col-xs-12 grid inLeft">
                         <figure class="port-effect-up">
-                            <img src="images/portfolios/portfolio-4.jpg" class="img-responsive" alt="portfolio-demo"/>
+                            <img src="<?php bloginfo('template_url'); ?>/images/portfolios/portfolio-4.jpg" class="img-responsive" alt="portfolio-demo"/>
                             <figcaption>
                                 <h2>Lightbox <span> IMAGE</span></h2>
                                 <p>I designed this for a client for his cafe.</p>
-                                <a href="images/portfolios/portfolio-4.jpg" class="popup-image"
+                                <a href="<?php bloginfo('template_url'); ?>/images/portfolios/portfolio-4.jpg" class="popup-image"
                                    data-effect="mfp-with-fade">View more</a>
                             </figcaption>
                         </figure>
@@ -983,7 +983,7 @@
                     <!--CATEGORY CONTENT ONE SMALL-->
                     <div class="col-md-4 col-sm-6 col-xs-12 grid inLeft">
                         <figure class="port-effect-up">
-                            <img src="images/portfolios/big-1.jpg" class="img-responsive" alt="portfolio-demo"/>
+                            <img src="<?php bloginfo('template_url'); ?>/images/portfolios/big-1.jpg" class="img-responsive" alt="portfolio-demo"/>
                             <figcaption>
                                 <h2>Single <span> PAGE</span></h2>
                                 <p>Showcase Your Portfolio in Details on a Single Page</p>
@@ -994,7 +994,7 @@
                     <!--CATEGORY CONTENT TWO SMALL-->
                     <div class="col-md-4 col-sm-6 col-xs-12 grid inRight">
                         <figure class="port-effect-up">
-                            <img src="images/portfolios/big-2.jpg" class="img-responsive" alt="portfolio-demo"/>
+                            <img src="<?php bloginfo('template_url'); ?>/images/portfolios/big-2.jpg" class="img-responsive" alt="portfolio-demo"/>
                             <figcaption>
                                 <h2>Single <span> PAGE</span></h2>
                                 <p>Showcase Your Portfolio in Details on a Single Page</p>
@@ -1005,7 +1005,7 @@
                     <!--CATEGORY CONTENT THREE SMALL-->
                     <div class="col-md-4 col-sm-6 col-xs-12 grid inRight">
                         <figure class="port-effect-up">
-                            <img src="images/portfolios/portfolio-1.jpg" class="img-responsive" alt="portfolio-demo"/>
+                            <img src="<?php bloginfo('template_url'); ?>/images/portfolios/portfolio-1.jpg" class="img-responsive" alt="portfolio-demo"/>
                             <figcaption>
                                 <h2>Single <span> PAGE</span></h2>
                                 <p>Showcase Your Portfolio in Details on a Single Page</p>
@@ -1017,7 +1017,7 @@
                     <!--CATEGORY CONTENT FOUR SMALL-->
                     <div class="col-md-4 col-sm-6 col-xs-12 grid inLeft">
                         <figure class="port-effect-up">
-                            <img src="images/portfolios/portfolio-2.jpg" class="img-responsive" alt="portfolio-demo"/>
+                            <img src="<?php bloginfo('template_url'); ?>/images/portfolios/portfolio-2.jpg" class="img-responsive" alt="portfolio-demo"/>
                             <figcaption>
                                 <h2>Single <span> PAGE</span></h2>
                                 <p>Showcase Your Portfolio in Details on a Single Page</p>
@@ -1028,7 +1028,7 @@
                     <!--CATEGORY CONTENT FIVE SMALL-->
                     <div class="col-md-4 col-sm-6 col-xs-12 grid inRight">
                         <figure class="port-effect-up">
-                            <img src="images/portfolios/portfolio-3.jpg" class="img-responsive" alt="portfolio-demo"/>
+                            <img src="<?php bloginfo('template_url'); ?>/images/portfolios/portfolio-3.jpg" class="img-responsive" alt="portfolio-demo"/>
                             <figcaption>
                                 <h2>Single <span> PAGE</span></h2>
                                 <p>Showcase Your Portfolio in Details on a Single Page</p>
@@ -1039,7 +1039,7 @@
                     <!--CATEGORY CONTENT SIX SMALL-->
                     <div class="col-md-4 col-sm-6 col-xs-12 grid inLeft">
                         <figure class="port-effect-up">
-                            <img src="images/portfolios/portfolio-4.jpg" class="img-responsive" alt="portfolio-demo"/>
+                            <img src="<?php bloginfo('template_url'); ?>/images/portfolios/portfolio-4.jpg" class="img-responsive" alt="portfolio-demo"/>
                             <figcaption>
                                 <h2>Single <span> PAGE</span></h2>
                                 <p>Showcase Your Portfolio in Details on a Single Page</p>
@@ -1069,7 +1069,7 @@
     <div class="container">
         <!-- SECTION TITLE -->
         <div class="section-title">
-            <h4 class="text-uppercase text-center"><img src="images/icons/heart.png" alt="demo">Interest</h4>
+            <h4 class="text-uppercase text-center"><img src="<?php bloginfo('template_url'); ?>/images/icons/heart.png" alt="demo">Interest</h4>
         </div>
 
         <div id="interest-card" class="card">
@@ -1142,7 +1142,7 @@
     <div class="container">
         <!-- SECTION TITLE -->
         <div class="section-title">
-            <h4 class="text-uppercase text-center"><img src="images/icons/handshake.png" alt="demo">Testimonials</h4>
+            <h4 class="text-uppercase text-center"><img src="<?php bloginfo('template_url'); ?>/images/icons/handshake.png" alt="demo">Testimonials</h4>
         </div>
         <div id="testimonials-card" class="row card">
             <div class="col-md-12 col-xs-12">
@@ -1156,7 +1156,7 @@
                             <div class="col-md-12">
                                 <!--CLIENT IMAGE-->
                                 <div class="client-img center-block">
-                                    <img alt="client-image" class="center-block" src="images/clients/client-1.png">
+                                    <img alt="client-image" class="center-block" src="<?php bloginfo('template_url'); ?>/images/clients/client-1.png">
                                 </div>
                                 <!--CLIENT QUOTE-->
                                 <blockquote>
@@ -1178,7 +1178,7 @@
                             <div class="col-md-12">
                                 <!--CLIENT IMAGE-->
                                 <div class="client-img center-block">
-                                    <img alt="client-image" class="center-block" src="images/clients/client-2.png">
+                                    <img alt="client-image" class="center-block" src="<?php bloginfo('template_url'); ?>/images/clients/client-2.png">
                                 </div>
                                 <!--CLIENT QUOTE-->
                                 <blockquote>
@@ -1194,7 +1194,7 @@
                             <div class="col-md-12">
                                 <!--CLIENT IMAGE-->
                                 <div class="client-img center-block">
-                                    <img alt="client-image" class="center-block" src="images/clients/client-3.png">
+                                    <img alt="client-image" class="center-block" src="<?php bloginfo('template_url'); ?>/images/clients/client-3.png">
                                 </div>
                                 <!--CLIENT QUOTE-->
                                 <blockquote>
@@ -1219,15 +1219,15 @@
                         <div class="clients-wrap">
                             <!--CLIENT LOGO'S-->
                             <ul id="clients-list" class="clearfix">
-                                <li><img src="images/logos/logo1.png" alt="client-logo"></li>
-                                <li><img src="images/logos/logo2.png" alt="client-logo"></li>
-                                <li><img src="images/logos/logo3.png" alt="client-logo"></li>
-                                <li><img src="images/logos/logo4.png" alt="client-logo"></li>
-                                <li><img src="images/logos/logo5.png" alt="client-logo"></li>
-                                <li><img src="images/logos/logo6.png" alt="client-logo"></li>
-                                <li><img src="images/logos/logo7.png" alt="client-logo"></li>
-                                <li><img src="images/logos/logo8.png" alt="client-logo"></li>
-                                <li><img src="images/logos/logo9.png" alt="client-logo"></li>
+                                <li><img src="<?php bloginfo('template_url'); ?>/images/logos/logo1.png" alt="client-logo"></li>
+                                <li><img src="<?php bloginfo('template_url'); ?>/images/logos/logo2.png" alt="client-logo"></li>
+                                <li><img src="<?php bloginfo('template_url'); ?>/images/logos/logo3.png" alt="client-logo"></li>
+                                <li><img src="<?php bloginfo('template_url'); ?>/images/logos/logo4.png" alt="client-logo"></li>
+                                <li><img src="<?php bloginfo('template_url'); ?>/images/logos/logo5.png" alt="client-logo"></li>
+                                <li><img src="<?php bloginfo('template_url'); ?>/images/logos/logo6.png" alt="client-logo"></li>
+                                <li><img src="<?php bloginfo('template_url'); ?>/images/logos/logo7.png" alt="client-logo"></li>
+                                <li><img src="<?php bloginfo('template_url'); ?>/images/logos/logo8.png" alt="client-logo"></li>
+                                <li><img src="<?php bloginfo('template_url'); ?>/images/logos/logo9.png" alt="client-logo"></li>
                             </ul>
                         </div>
                     </div>
@@ -1244,7 +1244,7 @@
     <div class="container">
         <!--SECTION TITLE-->
         <div class="section-title">
-            <h4 class="text-uppercase text-center"><img src="images/icons/lightning.png" alt="demo">Pricing</h4>
+            <h4 class="text-uppercase text-center"><img src="<?php bloginfo('template_url'); ?>/images/icons/lightning.png" alt="demo">Pricing</h4>
         </div>
         <!--PRICING TABLES-->
         <div id="pricing-card" class="row">
@@ -1340,7 +1340,7 @@
     <div class="container">
         <!-- SECTION TITLE -->
         <div class="section-title">
-            <h4 class="text-uppercase text-center"><img src="images/icons/post-it.png" alt="demo">Blog</h4>
+            <h4 class="text-uppercase text-center"><img src="<?php bloginfo('template_url'); ?>/images/icons/post-it.png" alt="demo">Blog</h4>
         </div>
         <div id="blog-card" class="row">
             <div class="col-md-12 col-sm-12">
@@ -1349,7 +1349,7 @@
                     <div class="blog odd">
                         <!--IMAGE-->
                         <div class="image">
-                            <img alt="blog-image" src="images/blog/blog-2.png"/>
+                            <img alt="blog-image" src="<?php bloginfo('template_url'); ?>/images/blog/blog-2.png"/>
                             <div class="image-overlay">
                                 <div class="comments">
                                     <i class="fa fa-user"></i> John Doe
@@ -1378,7 +1378,7 @@
                     <div class="blog even">
                         <!--IMAGE-->
                         <div class="image">
-                            <img alt="blog-image" src="images/blog/blog-1.png"/>
+                            <img alt="blog-image" src="<?php bloginfo('template_url'); ?>/images/blog/blog-1.png"/>
                             <div class="image-overlay">
                                 <div class="comments">
                                     <i class="fa fa-user"></i> John Doe
@@ -1407,7 +1407,7 @@
                     <div class="blog odd">
                         <!--IMAGE-->
                         <div class="image">
-                            <img alt="blog-image" src="images/blog/blog-3.png"/>
+                            <img alt="blog-image" src="<?php bloginfo('template_url'); ?>/images/blog/blog-3.png"/>
                             <div class="image-overlay">
                                 <div class="comments">
                                     <i class="fa fa-user"></i> John Doe
@@ -1446,7 +1446,7 @@
     <div class="container">
         <!-- SECTION TITLE -->
         <div class="section-title">
-            <h4 class="text-uppercase text-center"><img src="images/icons/envelope.png" alt="demo">Contact</h4>
+            <h4 class="text-uppercase text-center"><img src="<?php bloginfo('template_url'); ?>/images/icons/envelope.png" alt="demo">Contact</h4>
         </div>
         <div class="row">
             <div id="contact-card" class="col-md-5 col-sm-12 col-xs-12">
