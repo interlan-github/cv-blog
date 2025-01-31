@@ -4,16 +4,13 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-    <meta name="author" content="Trimatrix Lab">
-    <meta name="description" content="">
-    <meta name="keywords" content="">
-
-
-    <title>Flatrica | Material CV/Resume</title>
+    <meta name="author" content="Черноусов Антон">
+    <meta name="description" content="Резюме системного инженера - Черноусов Антон">
+    <meta name="keywords" content="Системный инженер, Dvops, Резюме">
     <link rel="icon" href="<?php bloginfo('template_url'); ?>/images/site/fav-icon.png">
 
     <?php wp_head() ?>
-
+    <!-- <title>Черноусов Антон - CV/Resume</title> -->
     <!--APPLE TOUCH ICON-->
     <link rel="apple-touch-icon" href="<?php bloginfo('template_url'); ?>/images/site/apple-touch-icon.png">
 
@@ -62,8 +59,8 @@
             </div>
             <!-- NAME & STATUS -->
             <div class="text-holder text-center">
-                <h2>JOHN DOE</h2>
-                <h6>Software Engineer & UI/UX Expert</h6>
+                <h2>Черноусов Антон</h2>
+                <h6>Системный инженер (DevOps) <br/> Ведущий системный администратор</h6>
             </div>
         </div>
     </div>
@@ -127,11 +124,11 @@
 
                     <!-- PROFILE PICTURE -->
                     <div id="profile" class="right">
-                        <img alt="profile-image" class="img-responsive" src="<?php bloginfo('template_url'); ?>/images/profile/profile.png">
+                        <img alt="profile-image" class="img-responsive" src="<?php bloginfo('template_url'); ?>/images/photo/photo-2.jpg">
                         <div class="slant"></div>
 
                         <!--EMPTY PLUS BUTTON-->
-                        <div class="btn-floating btn-large add-btn"><i class="material-icons">add</i></div>
+                        <!-- <div class="btn-floating btn-large add-btn"><i class="material-icons">add</i></div> -->
 
                         <!--VIDEO PLAY BUTTON-->
                         <!--<div id="button-holder" class="btn-holder">
@@ -149,8 +146,8 @@
 
                         <!-- NAME & STATUS -->
                         <div class="info-headings">
-                            <h4 class="text-uppercase left">John DOE</h4>
-                            <h6 class="text-capitalize left">Software Engineer & UI/UX Expert</h6>
+                            <h4 class="text-uppercase left">Антон Черноусов</h4>
+                            <h6 class="left">Системный инженер (DevOps) <br/> Ведущий системный администратор</h6>
                         </div>
 
                         <!-- CONTACT INFO -->
@@ -158,23 +155,23 @@
                             <ul class="profile-list">
                                 <li class="clearfix">
                                     <span class="title"><i class="material-icons">email</i></span>
-                                    <span class="content">email@mailprovider.com</span>
+                                    <span class="content"><a href="mailto:chernousov@anton-c.ru" style="color:white;">chernousov@anton-c.ru</a></span>
                                 </li>
                                 <li class="clearfix">
                                     <span class="title"><i class="material-icons">language</i></span>
-                                    <span class="content">yourpersonalwebsite.com</span>
+                                    <span class="content"><a href="https://blog.anton-c.ru" target="_blank" style="color:white;">blog.anton-c.ru</a></span>
                                 </li>
                                 <li class="clearfix">
                                     <span class="title"><i class="fa fa-skype" aria-hidden="true"></i></span>
-                                    <span class="content">yourusername@skype.com</span>
+                                    <span class="content"><a href="skype:446d0bd44646b745?userinfo" target="_blank" style="color:white;">live:.cid.446d0bd44646b745</a></span>
                                 </li>
                                 <li class="clearfix">
                                     <span class="title"><i class="material-icons">phone</i></span>
-                                    <span class="content">+152 25634 254 846</span>
+                                    <span class="content" style="font-family:'Muli', sans-serif;">+7-996-072-17-52</span>
                                 </li>
                                 <li class="clearfix">
                                     <span class="title"><i class="material-icons">place</i></span>
-                                    <span class="content">LampStreet 34/3, London, UK</span>
+                                    <span class="content">Россия, г. Новосибирск</span>
                                 </li>
 
                             </ul>
@@ -183,21 +180,33 @@
                         <!--LINKS-->
                         <div class="links">
                             <!-- FACEBOOK-->
-                            <a href="#" id="first_one"
+                            <a href="https://www.facebook.com/anton.chernousov.54" target="_blank" id="first_one"
                                class="social btn-floating indigo"><i
                                     class="fa fa-facebook"></i></a>
-                            <!-- TWITTER-->
-                            <a href="#" class="social  btn-floating blue"><i
+
+<!--                             <a href="#" class="social  btn-floating blue"><i
                                     class="fa fa-twitter"></i></a>
-                            <!-- GOOGLE+-->
                             <a href="#" class="social  btn-floating red"><i
-                                    class="fa fa-google-plus"></i></a>
+                                    class="fa fa-google-plus"></i></a> -->
+
                             <!-- LINKEDIN-->
-                            <a href="#" class="social  btn-floating blue darken-3"><i
+                            <a target="_blank" href="https://www.linkedin.com/in/%D0%B0%D0%BD%D1%82%D0%BE%D0%BD-%D1%87%D0%B5%D1%80%D0%BD%D0%BE%D1%83%D1%81%D0%BE%D0%B2-41a060234/" class="social  btn-floating blue darken-3"><i
                                     class="fa fa-linkedin"></i></a>
-                            <!-- RSS-->
-                            <a href="#" class="social  btn-floating orange darken-3"><i
-                                    class="fa fa-rss"></i></a>
+
+                            <a target="_blank" href="https://www.instagram.com/anton.chernousov.549/" class="social  btn-floating blue darken-3"><i
+                                    class="fa fa-instagram"></i></a>
+
+                            <a target="_blank" href="https://vk.com/interlan" class="social  btn-floating blue darken-3"><i
+                                    class="fa fa-vk"></i></a>
+
+                            <a target="_blank" href="https://www.youtube.com/channel/UCsoX9oabjIX5smjPY8FA2cg" class="social  btn-floating blue darken-3"><i
+                                    class="fa fa-youtube"></i></a>
+
+                            <a target="_blank" href="https://rutube.ru/channel/26661190/" class="social  btn-floating blue darken-3"><i
+                                    class="fa fa-youtube-play"></i></a>
+
+                            <!-- <a href="#" class="social  btn-floating orange darken-3"><i
+                                    class="fa fa-rss"></i></a> -->
                         </div>
                     </div>
                     <!--HTML 5 VIDEO-->
