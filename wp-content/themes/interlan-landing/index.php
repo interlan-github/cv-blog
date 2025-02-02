@@ -205,6 +205,9 @@
                             <a target="_blank" href="https://rutube.ru/channel/26661190/" class="social  btn-floating blue darken-3"><i
                                     class="fa fa-youtube-play"></i></a>
 
+                            <a target="_blank" href="https://dzen.ru/interlan" class="social  btn-floating blue darken-3"><i
+                                    class="fa fa-user"></i></a>
+
                             <!-- <a href="#" class="social  btn-floating orange darken-3"><i
                                     class="fa fa-rss"></i></a> -->
                         </div>
