@@ -208,6 +208,8 @@
                             <a target="_blank" href="https://dzen.ru/interlan" class="social  btn-floating blue darken-3"><i
                                     class="fa fa-user"></i></a>
 
+                            <a target="_blank" href="https://pikabu.ru/@Selevoy" class="social  btn-floating blue darken-3"><i
+                                    class="fa fa-user"></i></a>
                             <!-- <a href="#" class="social  btn-floating orange darken-3"><i
                                     class="fa fa-rss"></i></a> -->
                         </div>
@@ -267,7 +269,7 @@
     <div class="container">
         <!-- SECTION TITLE -->
         <div class="section-title">
-            <h4 class="text-uppercase text-center"><img src="<?php bloginfo('template_url'); ?>/images/icons/book.png" alt="demo">Education</h4>
+            <h4 class="text-uppercase text-center"><img src="<?php bloginfo('template_url'); ?>/images/icons/book.png" alt="demo">Образование</h4>
         </div>
 
         <div id="timeline-education">
@@ -275,30 +277,29 @@
             <!-- FIRST TIMELINE -->
             <div class="timeline-block">
                 <!-- DOT -->
-                <div class="timeline-dot"><h6>P</h6></div>
+                <div class="timeline-dot"><h6>C</h6></div>
                 <!-- TIMELINE CONTENT -->
                 <div class="card timeline-content">
                     <div class="card-content">
                         <!-- TIMELINE TITLE -->
-                        <h6 class="timeline-title">Preparatory Education</h6>
+                        <h6 class="timeline-title" style="font-family:'Muli', sans-serif;">Курсы 2025</h6>
                         <!-- TIMELINE TITLE INFO -->
                         <div class="timeline-info">
                             <h6>
-                                <small>Fedrick School</small>
+                                <small><a target="_blank" href="https://cloud.ru/education?uxt=a">Cloud.ru</a></small>
                             </h6>
                             <h6>
-                                <small>Jan 1997 - Mar 2000</small>
+                                <small style="font-family:'Muli', sans-serif;">Февраль 2025</small>
                             </h6>
                         </div>
                         <!-- TIMELINE PARAGRAPH -->
                         <p>
-                            I completed my preparatory education from this prestigious institution.
-                            I successful completed all the credits without any fallout and got A grade overall.
+                            <a target="_blank" href="https://blog.anton-c.ru/2025/01/31/%D0%BC%D0%BE%D1%91-%D0%BE%D0%B1%D1%83%D1%87%D0%B5%D0%BD%D0%B8%D0%B5-%D0%BA%D1%83%D1%80%D1%81%D1%8B-%D0%B8-%D1%81%D0%B5%D1%80%D1%82%D0%B8%D1%84%D0%B8%D0%BA%D0%B0%D1%82%D1%8B/#2025-1">Cloud.ru Evolution Fundamentals </a>
                         </p>
                         <!-- BUTTON TRIGGER MODAL -->
-                        <a href="#" class="modal-dot" data-toggle="modal" data-target="#myModal-1">
+                        <!-- <a href="#" class="modal-dot" data-toggle="modal" data-target="#myModal-1">
                             <i class="fa fa-ellipsis-h" aria-hidden="true"></i>
-                        </a>
+                        </a> -->
                     </div>
                 </div>
             </div>
