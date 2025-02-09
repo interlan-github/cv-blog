@@ -463,7 +463,7 @@
             <!-- SIXTH TIMELINE -->
             <div class="timeline-block">
                 <!-- DOT -->
-                <div class="timeline-dot"><i class="fa fa-globe"></i></div>
+                <div class="timeline-dot"><i class="fa fa-graduation-cap"></i></div>
                 <!-- TIMELINE CONTENT -->
                 <div class="card timeline-content">
                     <div class="card-content">
