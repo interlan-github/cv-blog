@@ -307,26 +307,29 @@
             <!-- SECOND TIMELINE -->
             <div class="timeline-block">
                 <!-- DOT -->
-                <div class="timeline-dot"><h6>H</h6></div>
+                <div class="timeline-dot"><h6>C</h6></div>
                 <!-- TIMELINE CONTENT -->
                 <div class="card timeline-content">
                     <div class="card-content">
                         <!-- TIMELINE TITLE -->
-                        <h6 class="timeline-title">High School</h6>
+                        <h6 class="timeline-title" style="font-family:'Muli', sans-serif;">Курсы 2021</h6>
                         <!-- TIMELINE TITLE INFO -->
                         <div class="timeline-info">
                             <h6>
-                                <small>RedStreet College</small>
+                                <small><a target="_blank" href="https://www.coursera.org">Coursera</a></small>
                             </h6>
                             <h6>
-                                <small>Jan 2000 - Mar 2005</small>
+                                <small style="font-family:'Muli', sans-serif;">Январь 2021</small>
                             </h6>
                         </div>
                         <!-- TIMELINE PARAGRAPH -->
                         <p>
-                            I completed my high school degree from this prestigious institution.
-                            I successful completed all the credits without any fallout and got A grade overall.
+                            <a target="_blank" href="https://blog.anton-c.ru/2025/01/31/%D0%BC%D0%BE%D1%91-%D0%BE%D0%B1%D1%83%D1%87%D0%B5%D0%BD%D0%B8%D0%B5-%D0%BA%D1%83%D1%80%D1%81%D1%8B-%D0%B8-%D1%81%D0%B5%D1%80%D1%82%D0%B8%D1%84%D0%B8%D0%BA%D0%B0%D1%82%D1%8B/#2021-1">Introduction to Docker : The Basics</a>
                         </p>
+                        <!-- BUTTON TRIGGER MODAL -->
+                        <!-- <a href="#" class="modal-dot" data-toggle="modal" data-target="#myModal-1">
+                            <i class="fa fa-ellipsis-h" aria-hidden="true"></i>
+                        </a> -->
                     </div>
                 </div>
             </div>
@@ -339,22 +342,30 @@
                 <div class="card timeline-content">
                     <div class="card-content">
                         <!-- TIMELINE TITLE -->
-                        <h6 class="timeline-title">Computer Science</h6>
+                        <h6 class="timeline-title" style="font-family:'Muli', sans-serif;">Курсы 2019</h6>
                         <!-- TIMELINE TITLE INFO -->
                         <div class="timeline-info">
                             <h6>
-                                <small>Down Street College</small>
+                                <small><a target="_blank" href="https://www.sololearn.com/en/">SoloLearn</a></small>
                             </h6>
                             <h6>
-                                <small>Jan 2006 - Mar 2008</small>
+                                <small style="font-family:'Muli', sans-serif;">Сентябрь 2019</small>
                             </h6>
                         </div>
                         <!-- TIMELINE PARAGRAPH -->
                         <p>
-                            I completed my computer science degree from this prestigious institution.
-                            I successful completed all the credits without any fallout and got A grade overall.
+                            <a target="_blank" href="https://blog.anton-c.ru/2025/01/31/%D0%BC%D0%BE%D1%91-%D0%BE%D0%B1%D1%83%D1%87%D0%B5%D0%BD%D0%B8%D0%B5-%D0%BA%D1%83%D1%80%D1%81%D1%8B-%D0%B8-%D1%81%D0%B5%D1%80%D1%82%D0%B8%D1%84%D0%B8%D0%BA%D0%B0%D1%82%D1%8B/#2019-1">Java</a>
                         </p>
-
+                            <h6>
+                                <small style="font-family:'Muli', sans-serif;">Август 2019</small>
+                            </h6>
+                        <p>
+                            <a target="_blank" href="https://blog.anton-c.ru/2025/01/31/%D0%BC%D0%BE%D1%91-%D0%BE%D0%B1%D1%83%D1%87%D0%B5%D0%BD%D0%B8%D0%B5-%D0%BA%D1%83%D1%80%D1%81%D1%8B-%D0%B8-%D1%81%D0%B5%D1%80%D1%82%D0%B8%D1%84%D0%B8%D0%BA%D0%B0%D1%82%D1%8B/#2019-2">PHP</a>
+                        </p>
+                        <!-- BUTTON TRIGGER MODAL -->
+                        <!-- <a href="#" class="modal-dot" data-toggle="modal" data-target="#myModal-1">
+                            <i class="fa fa-ellipsis-h" aria-hidden="true"></i>
+                        </a> -->
                     </div>
                 </div>
             </div>
@@ -362,60 +373,93 @@
             <!-- FOURTH TIMELINE -->
             <div class="timeline-block">
                 <!-- DOT -->
-                <div class="timeline-dot"><i class="fa fa-graduation-cap"></i></div>
+                <div class="timeline-dot"><h6>C</h6></div>
                 <!-- TIMELINE CONTENT -->
                 <div class="card timeline-content">
                     <div class="card-content">
                         <!-- TIMELINE TITLE -->
-                        <h6 class="timeline-title">Software Engineering</h6>
+                        <h6 class="timeline-title" style="font-family:'Muli', sans-serif;">Курсы 2018</h6>
                         <!-- TIMELINE TITLE INFO -->
                         <div class="timeline-info">
                             <h6>
-                                <small>Oxford University</small>
+                                <small><a target="_blank" href="https://www.sololearn.com/en/">SoloLearn</a></small>
                             </h6>
                             <h6>
-                                <small>Jan 2009 - Mar 2010</small>
+                                <small style="font-family:'Muli', sans-serif;">Июль 2018</small>
                             </h6>
                         </div>
                         <!-- TIMELINE PARAGRAPH -->
                         <p>
-                            I completed this degree from this prestigious institution.
-                            I successful completed all the credits without any fallout and got A grade overall.
+                            <a target="_blank" href="https://blog.anton-c.ru/2025/01/31/%D0%BC%D0%BE%D1%91-%D0%BE%D0%B1%D1%83%D1%87%D0%B5%D0%BD%D0%B8%D0%B5-%D0%BA%D1%83%D1%80%D1%81%D1%8B-%D0%B8-%D1%81%D0%B5%D1%80%D1%82%D0%B8%D1%84%D0%B8%D0%BA%D0%B0%D1%82%D1%8B/#2018-1">Java Script</a>
                         </p>
-
+                        <p>
+                            <a target="_blank" href="https://blog.anton-c.ru/2025/01/31/%D0%BC%D0%BE%D1%91-%D0%BE%D0%B1%D1%83%D1%87%D0%B5%D0%BD%D0%B8%D0%B5-%D0%BA%D1%83%D1%80%D1%81%D1%8B-%D0%B8-%D1%81%D0%B5%D1%80%D1%82%D0%B8%D1%84%D0%B8%D0%BA%D0%B0%D1%82%D1%8B/#2018-2">CSS</a>
+                        </p>
+                        <h6>
+                            <small style="font-family:'Muli', sans-serif;">Июнь 2018</small>
+                        </h6>
+                        <p>
+                            <a target="_blank" href="https://blog.anton-c.ru/2025/01/31/%D0%BC%D0%BE%D1%91-%D0%BE%D0%B1%D1%83%D1%87%D0%B5%D0%BD%D0%B8%D0%B5-%D0%BA%D1%83%D1%80%D1%81%D1%8B-%D0%B8-%D1%81%D0%B5%D1%80%D1%82%D0%B8%D1%84%D0%B8%D0%BA%D0%B0%D1%82%D1%8B/#2018-3">HTML</a>
+                        </p>
+                        <p>
+                            <a target="_blank" href="https://blog.anton-c.ru/2025/01/31/%D0%BC%D0%BE%D1%91-%D0%BE%D0%B1%D1%83%D1%87%D0%B5%D0%BD%D0%B8%D0%B5-%D0%BA%D1%83%D1%80%D1%81%D1%8B-%D0%B8-%D1%81%D0%B5%D1%80%D1%82%D0%B8%D1%84%D0%B8%D0%BA%D0%B0%D1%82%D1%8B/#2018-4">Python Core</a>
+                        </p>
+                        <p>
+                            <a target="_blank" href="https://blog.anton-c.ru/2025/01/31/%D0%BC%D0%BE%D1%91-%D0%BE%D0%B1%D1%83%D1%87%D0%B5%D0%BD%D0%B8%D0%B5-%D0%BA%D1%83%D1%80%D1%81%D1%8B-%D0%B8-%D1%81%D0%B5%D1%80%D1%82%D0%B8%D1%84%D0%B8%D0%BA%D0%B0%D1%82%D1%8B/#2018-5">SQL Fundamentals</a>
+                        </p>
+                        <p>
+                            <a target="_blank" href="https://blog.anton-c.ru/2025/01/31/%D0%BC%D0%BE%D1%91-%D0%BE%D0%B1%D1%83%D1%87%D0%B5%D0%BD%D0%B8%D0%B5-%D0%BA%D1%83%D1%80%D1%81%D1%8B-%D0%B8-%D1%81%D0%B5%D1%80%D1%82%D0%B8%D1%84%D0%B8%D0%BA%D0%B0%D1%82%D1%8B/#2018-6">jQuery Tutorial</a>
+                        </p>
+                        <!-- BUTTON TRIGGER MODAL -->
+                        <!-- <a href="#" class="modal-dot" data-toggle="modal" data-target="#myModal-1">
+                            <i class="fa fa-ellipsis-h" aria-hidden="true"></i>
+                        </a> -->
                     </div>
                 </div>
             </div>
+
             <!-- FIFTH TIMELINE -->
             <div class="timeline-block">
                 <!-- DOT -->
-                <div class="timeline-dot"><h6>U</h6></div>
+                <div class="timeline-dot"><h6>C</h6></div>
                 <!-- TIMELINE CONTENT -->
                 <div class="card timeline-content">
                     <div class="card-content">
                         <!-- TIMELINE TITLE -->
-                        <h6 class="timeline-title">UI/UX Workshop</h6>
+                        <h6 class="timeline-title" style="font-family:'Muli', sans-serif;">Курсы 2017</h6>
                         <!-- TIMELINE TITLE INFO -->
                         <div class="timeline-info">
                             <h6>
-                                <small>IT Next Academy</small>
+                                <small><a target="_blank" href="https://intuit.ru">Intuit.ru</a></small>
                             </h6>
                             <h6>
-                                <small>Jan 2010 - Mar 2011</small>
+                                <small style="font-family:'Muli', sans-serif;">Октябрь 2017</small>
                             </h6>
                         </div>
                         <!-- TIMELINE PARAGRAPH -->
                         <p>
-                            I completed this course from this prestigious institution.
-                            I successful completed all the credits without any fallout and got A grade overall.
+                            <a target="_blank" href="https://blog.anton-c.ru/2025/01/31/%D0%BC%D0%BE%D1%91-%D0%BE%D0%B1%D1%83%D1%87%D0%B5%D0%BD%D0%B8%D0%B5-%D0%BA%D1%83%D1%80%D1%81%D1%8B-%D0%B8-%D1%81%D0%B5%D1%80%D1%82%D0%B8%D1%84%D0%B8%D0%BA%D0%B0%D1%82%D1%8B/#2017-1">Администрирование ОС Linux</a>
+                        </p>
+                        <p>
+                            <a target="_blank" href="https://blog.anton-c.ru/2025/01/31/%D0%BC%D0%BE%D1%91-%D0%BE%D0%B1%D1%83%D1%87%D0%B5%D0%BD%D0%B8%D0%B5-%D0%BA%D1%83%D1%80%D1%81%D1%8B-%D0%B8-%D1%81%D0%B5%D1%80%D1%82%D0%B8%D1%84%D0%B8%D0%BA%D0%B0%D1%82%D1%8B/#2017-2">Введение в HTML и CSS</a>
+                        </p>
+                        <p>
+                            <a target="_blank" href="https://blog.anton-c.ru/2025/01/31/%D0%BC%D0%BE%D1%91-%D0%BE%D0%B1%D1%83%D1%87%D0%B5%D0%BD%D0%B8%D0%B5-%D0%BA%D1%83%D1%80%D1%81%D1%8B-%D0%B8-%D1%81%D0%B5%D1%80%D1%82%D0%B8%D1%84%D0%B8%D0%BA%D0%B0%D1%82%D1%8B/#2017-3">Операционная система Linux</a>
+                        </p>
+                        <p>
+                            <a target="_blank" href="https://blog.anton-c.ru/2025/01/31/%D0%BC%D0%BE%D1%91-%D0%BE%D0%B1%D1%83%D1%87%D0%B5%D0%BD%D0%B8%D0%B5-%D0%BA%D1%83%D1%80%D1%81%D1%8B-%D0%B8-%D1%81%D0%B5%D1%80%D1%82%D0%B8%D1%84%D0%B8%D0%BA%D0%B0%D1%82%D1%8B/#2017-4">Сетевые средства Linux</a>
+                        </p>
+                        <p>
+                            <a target="_blank" href="https://blog.anton-c.ru/2025/01/31/%D0%BC%D0%BE%D1%91-%D0%BE%D0%B1%D1%83%D1%87%D0%B5%D0%BD%D0%B8%D0%B5-%D0%BA%D1%83%D1%80%D1%81%D1%8B-%D0%B8-%D1%81%D0%B5%D1%80%D1%82%D0%B8%D1%84%D0%B8%D0%BA%D0%B0%D1%82%D1%8B/#2017-5">Спецификация языка HTML</a>
                         </p>
                         <!-- BUTTON TRIGGER MODAL -->
-                        <a href="#" class="modal-dot" data-toggle="modal" data-target="#myModal-2">
+                        <!-- <a href="#" class="modal-dot" data-toggle="modal" data-target="#myModal-1">
                             <i class="fa fa-ellipsis-h" aria-hidden="true"></i>
-                        </a>
+                        </a> -->
                     </div>
                 </div>
             </div>
+
             <!-- SIXTH TIMELINE -->
             <div class="timeline-block">
                 <!-- DOT -->
@@ -424,25 +468,24 @@
                 <div class="card timeline-content">
                     <div class="card-content">
                         <!-- TIMELINE TITLE -->
-                        <h6 class="timeline-title">Web Development</h6>
+                        <h6 class="timeline-title">Университет 2004</h6>
                         <!-- TIMELINE TITLE INFO -->
                         <div class="timeline-info">
                             <h6>
-                                <small>Lipro University</small>
+                                <small>Алтайский Государственный Технический Университет</small>
                             </h6>
                             <h6>
-                                <small>Jan 2011 - Mar 2012</small>
+                                <small>2009-2004</small>
                             </h6>
                         </div>
                         <!-- TIMELINE PARAGRAPH -->
                         <p>
-                            I completed this course from this prestigious institution.
-                            I successful completed all the credits without any fallout and got A grade overall.
+                            <a target="_blank" href="https://blog.anton-c.ru/2025/01/31/%D0%BC%D0%BE%D1%91-%D0%BE%D0%B1%D1%83%D1%87%D0%B5%D0%BD%D0%B8%D0%B5-%D0%BA%D1%83%D1%80%D1%81%D1%8B-%D0%B8-%D1%81%D0%B5%D1%80%D1%82%D0%B8%D1%84%D0%B8%D0%BA%D0%B0%D1%82%D1%8B/#2004-1">Академическая справка</a>
                         </p>
                         <!-- BUTTON TRIGGER MODAL -->
-                        <a href="#" class="modal-dot" data-toggle="modal" data-target="#myModal-3">
+<!--                         <a href="#" class="modal-dot" data-toggle="modal" data-target="#myModal-3">
                             <i class="fa fa-ellipsis-h" aria-hidden="true"></i>
-                        </a>
+                        </a> -->
                     </div>
                 </div>
             </div>
