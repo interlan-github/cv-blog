@@ -90,7 +90,7 @@ trait WpUri {
 	 * @return string $url The canonical URL.
 	 */
 	public function canonicalUrl() {
-		$queriedObject = get_queried_object();
+		$queriedObject = get_queried_object(); // Don't use our getTerm helper here.
 		$hash          = md5( wp_json_encode( $queriedObject ?? [] ) );
 
 		static $url = [];
@@ -114,10 +114,15 @@ trait WpUri {
 			$metaData     = aioseo()->meta->metaData->getMetaData( $queriedObject );
 			$url[ $hash ] = get_term_link( $queriedObject, $queriedObject->taxonomy ?? '' );
 
+			// If the term link is a WP_Error, set it to an empty string.
+			if ( ! is_string( $url[ $hash ] ) ) {
+				$url[ $hash ] = '';
+			}
+
 			// Add pagination to the URL. We need to do this here because get_term_link() doesn't handle pagination.
 			// We'll strip it further down if no pagination for canonical is enabled.
 			if ( $this->getPageNumber() > 1 ) {
-				$url[ $hash ] = user_trailingslashit( $url[ $hash ] . 'page/' . $this->getPageNumber() );
+				$url[ $hash ] = user_trailingslashit( rtrim( $url[ $hash ], '/' ) . '/page/' . $this->getPageNumber() );
 			}
 		}
 

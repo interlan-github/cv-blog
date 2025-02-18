@@ -334,7 +334,7 @@ class SeoBoost {
 	/**
 	 * Returns the default user options.
 	 *
-	 * @since {next}
+	 * @since 4.7.7.1
 	 *
 	 * @return array The default user options.
 	 */
@@ -351,7 +351,7 @@ class SeoBoost {
 	/**
 	 * Returns the list of countries.
 	 *
-	 * @since {next}
+	 * @since 4.7.7.1
 	 *
 	 * @return array The list of countries.
 	 */
@@ -553,7 +553,7 @@ class SeoBoost {
 	/**
 	 * Returns the list of languages.
 	 *
-	 * @since {next}
+	 * @since 4.7.7.1
 	 *
 	 * @return array The list of languages.
 	 */
@@ -581,7 +581,7 @@ class SeoBoost {
 	/**
 	 * Returns the list of search engines.
 	 *
-	 * @since {next}
+	 * @since 4.7.7.1
 	 *
 	 * @return array The list of search engines.
 	 */

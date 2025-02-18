@@ -238,11 +238,7 @@
                     <div class="card-content">
                         <!-- ABOUT PARAGRAPH -->
                         <p>
-                            Hello! I’m John Doe. Senior Web Developer with over 13 years of experience
-                            specializing in front end development. Experienced with all stages of the
-                            development cycle for dynamic web projects.Having an in-depth knowledge
-                            including advanced HTML5, CSS, CSS3, SASS, LESS, JSON, XML, Java, JavaScript,
-                            JQuery, Angular JS. Strong background in management and leadership.
+                        Привет! Меня зовут Антон Черноусов. Я DevOps инженер с 18-и летним стажем работы в IT-сфере. По мимо рабоы в DevOps направлении я так-же работал программистом и системным администратором. Специализируюсь на Linux и Open Source решениях. На данный момент открыт к предложениям работы как на полный рабочий день, так и по проектно или почасовые задачи. Единственное требование, это удаленный формат работы. Так-же рассматриваю предложения по участию в стартапах.
                         </p>
                     </div>
 
@@ -250,9 +246,9 @@
                     <div id="about-btn" class="card-action">
                         <div class="about-btn">
                             <!-- DOWNLOAD CV BUTTON -->
-                            <a href="#" class="btn waves-effect">Download CV</a>
+                            <a href="<?php bloginfo('template_url'); ?>/resume.doc" class="btn waves-effect">Скачать резюме</a>
                             <!-- CONTACT BUTTON -->
-                            <a href="#contact" class="btn waves-effect">Contact Me</a>
+                            <a href="#contact" class="btn waves-effect">Связаться</a>
                         </div>
                     </div>
                 </div>
@@ -482,14 +478,17 @@
                         <p>
                             <a target="_blank" href="https://blog.anton-c.ru/2025/01/31/%D0%BC%D0%BE%D1%91-%D0%BE%D0%B1%D1%83%D1%87%D0%B5%D0%BD%D0%B8%D0%B5-%D0%BA%D1%83%D1%80%D1%81%D1%8B-%D0%B8-%D1%81%D0%B5%D1%80%D1%82%D0%B8%D1%84%D0%B8%D0%BA%D0%B0%D1%82%D1%8B/#2004-1">Академическая справка</a>
                         </p>
-                        <!-- BUTTON TRIGGER MODAL -->
-<!--                         <a href="#" class="modal-dot" data-toggle="modal" data-target="#myModal-3">
-                            <i class="fa fa-ellipsis-h" aria-hidden="true"></i>
-                        </a> -->
+                        <div style="color:white">
+                            <br/>
+                            &nbsp;
+                            <br/>
+                            &nbsp;
+                            <br/>
+                            &nbsp;
+                        </div>
                     </div>
                 </div>
             </div>
-
         </div>
     </div>
 </section>
@@ -502,7 +501,7 @@
     <div class="container">
         <!-- SECTION TITLE -->
         <div class="section-title">
-            <h4 class="text-uppercase text-center"><img src="<?php bloginfo('template_url'); ?>/images/icons/mixer.png" alt="demo">Skills</h4>
+            <h4 class="text-uppercase text-center"><img src="<?php bloginfo('template_url'); ?>/images/icons/mixer.png" alt="demo">Навыки</h4>
         </div>
         <div class="row">
             <div class="col-md-12 col-sm-12 col-xs-12">
@@ -512,31 +511,47 @@
                             <div class="col-md-4 col-sm-4 col-xs-12">
                                 <!-- FIRST SKILL SECTION -->
                                 <div class="skills-title">
-                                    <h6 class="text-center">Professional</h6>
+                                    <h6 class="text-center">Администрирование</h6>
                                 </div>
                                 <!-- FIRST SKILL BAR -->
                                 <div class="skillbar" data-percent="90%">
-                                    <div class="skillbar-title"><span>HTML5</span></div>
+                                    <div class="skillbar-title"><span>Linux (Ubuntu/Centos)</span></div>
                                     <div class="skillbar-bar"></div>
                                     <div class="skill-bar-percent">90%</div>
                                 </div>
                                 <!-- SECOND SKILL BAR  -->
-                                <div class="skillbar" data-percent="90%">
-                                    <div class="skillbar-title"><span>CSS3</span></div>
+                                <div class="skillbar" data-percent="60%">
+                                    <div class="skillbar-title"><span>Windows (Server/Workstation)</span></div>
                                     <div class="skillbar-bar"></div>
-                                    <div class="skill-bar-percent">90%</div>
+                                    <div class="skill-bar-percent">60%</div>
                                 </div>
                                 <!-- THIRD SKILL BAR  -->
                                 <div class="skillbar" data-percent="70%">
-                                    <div class="skillbar-title"><span>jQuery</span></div>
+                                    <div class="skillbar-title"><span>Web server (Apache/Nginx)</span></div>
                                     <div class="skillbar-bar"></div>
                                     <div class="skill-bar-percent">70%</div>
                                 </div>
                                 <!-- FOURTH SKILL BAR  -->
                                 <div class="skillbar" data-percent="68%">
-                                    <div class="skillbar-title"><span>PHP</span></div>
+                                    <div class="skillbar-title"><span>Application server (Tomcat/FPM)</span></div>
                                     <div class="skillbar-bar"></div>
                                     <div class="skill-bar-percent">68%</div>
+                                </div>
+                                <!-- FOURTH SKILL BAR  -->
+                                <div class="skillbar" data-percent="75%">
+                                    <div class="skillbar-title"><span>MySql/Postgresql</span></div>
+                                    <div class="skillbar-bar"></div>
+                                    <div class="skill-bar-percent">75%</div>
+                                </div>
+                                <div class="skillbar" data-percent="80%">
+                                    <div class="skillbar-title"><span>Почтовые сервера</span></div>
+                                    <div class="skillbar-bar"></div>
+                                    <div class="skill-bar-percent">80%</div>
+                                </div>
+                                <div class="skillbar" data-percent="70%">
+                                    <div class="skillbar-title"><span>IP-телефония</span></div>
+                                    <div class="skillbar-bar"></div>
+                                    <div class="skill-bar-percent">70%</div>
                                 </div>
                             </div>
 
@@ -544,31 +559,43 @@
                             <div class="col-md-4 col-sm-4 col-xs-12">
                                 <!-- SECOND SKILL SECTION -->
                                 <div class="skills-title">
-                                    <h6 class="text-center">Personal</h6>
+                                    <h6 class="text-center">DevOps</h6>
                                 </div>
                                 <!-- FIRST SKILL BAR -->
+                                <div class="skillbar" data-percent="90%">
+                                    <div class="skillbar-title"><span>GitLab</span></div>
+                                    <div class="skillbar-bar"></div>
+                                    <div class="skill-bar-percent">90%</div>
+                                </div>
+                                <!-- FOURTH SKILL BAR  -->
                                 <div class="skillbar" data-percent="80%">
-                                    <div class="skillbar-title"><span>Communication</span></div>
+                                    <div class="skillbar-title"><span>Jenkins</span></div>
                                     <div class="skillbar-bar"></div>
                                     <div class="skill-bar-percent">80%</div>
                                 </div>
                                 <!-- SECOND SKILL BAR  -->
-                                <div class="skillbar" data-percent="60%">
-                                    <div class="skillbar-title"><span>Teamwork</span></div>
+                                <div class="skillbar" data-percent="95%">
+                                    <div class="skillbar-title"><span>Docker</span></div>
                                     <div class="skillbar-bar"></div>
-                                    <div class="skill-bar-percent">60%</div>
+                                    <div class="skill-bar-percent">95%</div>
                                 </div>
                                 <!-- THIRD SKILL BAR  -->
                                 <div class="skillbar" data-percent="70%">
-                                    <div class="skillbar-title"><span>Creativity</span></div>
+                                    <div class="skillbar-title"><span>Kubernetes</span></div>
                                     <div class="skillbar-bar"></div>
                                     <div class="skill-bar-percent">70%</div>
                                 </div>
                                 <!-- FOURTH SKILL BAR  -->
                                 <div class="skillbar" data-percent="70%">
-                                    <div class="skillbar-title"><span>Dedication</span></div>
+                                    <div class="skillbar-title"><span>Ansible/Terraform</span></div>
                                     <div class="skillbar-bar"></div>
                                     <div class="skill-bar-percent">70%</div>
+                                </div>
+                                <!-- FOURTH SKILL BAR  -->
+                                <div class="skillbar" data-percent="80%">
+                                    <div class="skillbar-title"><span>ELK/Grafana/Prometheos</span></div>
+                                    <div class="skillbar-bar"></div>
+                                    <div class="skill-bar-percent">80%</div>
                                 </div>
                             </div>
 
@@ -576,31 +603,37 @@
                             <div class="col-md-4 col-sm-4 col-xs-12">
                                 <!-- THIRD SKILL SECTION -->
                                 <div class="skills-title">
-                                    <h6 class="text-center">Software</h6>
+                                    <h6 class="text-center">Разработка</h6>
                                 </div>
                                 <!-- FIRST SKILL BAR -->
-                                <div class="skillbar" data-percent="80%">
-                                    <div class="skillbar-title"><span>Adobe Illustrator</span></div>
-                                    <div class="skillbar-bar"></div>
-                                    <div class="skill-bar-percent">80%</div>
-                                </div>
-                                <!-- SECOND SKILL BAR  -->
                                 <div class="skillbar" data-percent="70%">
-                                    <div class="skillbar-title"><span>Adobe InDesign</span></div>
+                                    <div class="skillbar-title"><span>Python</span></div>
                                     <div class="skillbar-bar"></div>
                                     <div class="skill-bar-percent">70%</div>
                                 </div>
-                                <!-- THIRD SKILL BAR  -->
-                                <div class="skillbar" data-percent="60%">
-                                    <div class="skillbar-title"><span>PHP Storm</span></div>
+                                <!-- SECOND SKILL BAR  -->
+                                <div class="skillbar" data-percent="80%">
+                                    <div class="skillbar-title"><span>Schell script</span></div>
                                     <div class="skillbar-bar"></div>
-                                    <div class="skill-bar-percent">60%</div>
+                                    <div class="skill-bar-percent">80%</div>
+                                </div>
+                                <!-- THIRD SKILL BAR  -->
+                                <div class="skillbar" data-percent="40%">
+                                    <div class="skillbar-title"><span>Java</span></div>
+                                    <div class="skillbar-bar"></div>
+                                    <div class="skill-bar-percent">40%</div>
                                 </div>
                                 <!-- FOURTH SKILL BAR  -->
                                 <div class="skillbar" data-percent="80%">
-                                    <div class="skillbar-title"><span>Dev Console</span></div>
+                                    <div class="skillbar-title"><span>Gitlab Pipelines</span></div>
                                     <div class="skillbar-bar"></div>
                                     <div class="skill-bar-percent">80%</div>
+                                </div>
+                                <!-- FOURTH SKILL BAR  -->
+                                <div class="skillbar" data-percent="85%">
+                                    <div class="skillbar-title"><span>HTML/CSS/Java Script</span></div>
+                                    <div class="skillbar-bar"></div>
+                                    <div class="skill-bar-percent">85%</div>
                                 </div>
                             </div>
                         </div>
@@ -619,7 +652,7 @@
     <div class="container">
         <!-- SECTION TITLE -->
         <div class="section-title">
-            <h4 class="text-uppercase text-center"><img src="<?php bloginfo('template_url'); ?>/images/icons/layers.png" alt="demo">Experience</h4>
+            <h4 class="text-uppercase text-center"><img src="<?php bloginfo('template_url'); ?>/images/icons/layers.png" alt="demo">Опыт работы</h4>
         </div>
 
         <div id="timeline-experience">
@@ -627,28 +660,23 @@
             <!-- FIRST TIMELINE -->
             <div class="timeline-block">
                 <!-- DOT -->
-                <div class="timeline-dot"><h6>D</h6></div>
+                <div class="timeline-dot"><h6>F</h6></div>
                 <!-- TIMELINE CONTENT -->
                 <div class="card timeline-content">
                     <div class="card-content">
                         <!-- TIMELINE TITLE -->
-                        <h6 class="timeline-title">Designer</h6>
+                        <h6 class="timeline-title">2022</h6>
                         <!-- TIMELINE TITLE INFO -->
                         <div class="timeline-info">
                             <h6>
-                                <small>RulerSoft</small>
+                                <small>ИП Фогель Наталья Сергеевна</small>
                             </h6>
                             <h6>
-                                <small>Jan 2010 - Mar 2012</small>
+                                <small>14.02.2022 - 25.05.2022</small>
                             </h6>
                         </div>
-                        <!-- TIMELINE PARAGRAPH -->
-                        <p>
-                            I started my designing carrier here, spent tow years learning and working
-                            in various designing aspects..
-                        </p>
                         <!-- BUTTON TRIGGER MODAL -->
-                        <a href="#" class="modal-dot" data-toggle="modal" data-target="#myModal-4">
+                        <a target="_blank" href="https://blog.anton-c.ru/2025/02/15/%D0%BE%D0%BF%D1%8B%D1%82-%D1%80%D0%B0%D0%B1%D0%BE%D1%82%D1%8B/#1" class="modal-dot" data-toggle="modal" data-target="#myModal-4">
                             <i class="fa fa-ellipsis-h" aria-hidden="true"></i>
                         </a>
                     </div>
@@ -658,27 +686,65 @@
             <!-- SECOND TIMELINE -->
             <div class="timeline-block">
                 <!-- DOT -->
-                <div class="timeline-dot"><h6>F</h6></div>
+                <div class="timeline-dot"><h6>4</h6></div>
                 <!-- TIMELINE CONTENT -->
                 <div class="card timeline-content">
                     <div class="card-content">
                         <!-- TIMELINE TITLE -->
-                        <h6 class="timeline-title">Frontend Developer</h6>
+                        <h6 class="timeline-title">2021</h6>
                         <!-- TIMELINE TITLE INFO -->
                         <div class="timeline-info">
                             <h6>
-                                <small>Micro IT</small>
+                                <small>ООО Микрокредитная организация 4Финанс</small>
                             </h6>
                             <h6>
-                                <small>Jan 2012 - Mar 2014</small>
+                                <small>04.03.2021 - 10.02.2025</small>
                             </h6>
                         </div>
-                        <!-- TIMELINE PARAGRAPH -->
-                        <p>
-                            I started my frontend carrier here, spent tow years learning and working
-                            in various frontend aspects. I worked on about 40+ projects local and online.
-                        </p>
+                        <!-- BUTTON TRIGGER MODAL -->
+                        <a target="_blank" href="https://blog.anton-c.ru/2025/02/15/%D0%BE%D0%BF%D1%8B%D1%82-%D1%80%D0%B0%D0%B1%D0%BE%D1%82%D1%8B/#2" class="modal-dot" data-toggle="modal" data-target="#myModal-4">
+                            <i class="fa fa-ellipsis-h" aria-hidden="true"></i>
+                        </a>
+                        <div class="timeline-info">
+                            <h6>
+                                <small>ООО "Биорг"</small>
+                            </h6>
+                            <h6>
+                                <small>03.11.2021 - 19.01.2022</small>
+                            </h6>
+                        </div>
+                        <!-- BUTTON TRIGGER MODAL -->
+                        <a target="_blank" href="https://blog.anton-c.ru/2025/02/15/%D0%BE%D0%BF%D1%8B%D1%82-%D1%80%D0%B0%D0%B1%D0%BE%D1%82%D1%8B/#3" class="modal-dot" data-toggle="modal" data-target="#myModal-4">
+                            <i class="fa fa-ellipsis-h" aria-hidden="true"></i>
+                        </a>
 
+                    </div>
+                </div>
+            </div>
+
+
+            <!-- THIRD TIMELINE -->
+            <div class="timeline-block">
+                <!-- DOT -->
+                <div class="timeline-dot"><h6>O</h6></div>
+                <!-- TIMELINE CONTENT -->
+                <div class="card timeline-content">
+                    <div class="card-content">
+                        <!-- TIMELINE TITLE -->
+                        <h6 class="timeline-title">2020</h6>
+                        <!-- TIMELINE TITLE INFO -->
+                        <div class="timeline-info">
+                            <h6>
+                                <small>ООО "Зарплата.ру"</small>
+                            </h6>
+                            <h6>
+                                <small>24.11.2020 - 19.02.2021</small>
+                            </h6>
+                        </div>
+                        <!-- BUTTON TRIGGER MODAL -->
+                        <a target="_blank" href="https://blog.anton-c.ru/2025/02/15/%D0%BE%D0%BF%D1%8B%D1%82-%D1%80%D0%B0%D0%B1%D0%BE%D1%82%D1%8B/#zr" class="modal-dot" data-toggle="modal" data-target="#myModal-4">
+                            <i class="fa fa-ellipsis-h" aria-hidden="true"></i>
+                        </a>
                     </div>
                 </div>
             </div>
@@ -686,27 +752,50 @@
             <!-- THIRD TIMELINE -->
             <div class="timeline-block">
                 <!-- DOT -->
-                <div class="timeline-dot"><h6>U</h6></div>
+                <div class="timeline-dot"><h6>O</h6></div>
                 <!-- TIMELINE CONTENT -->
                 <div class="card timeline-content">
                     <div class="card-content">
                         <!-- TIMELINE TITLE -->
-                        <h6 class="timeline-title">UI/UX Expert</h6>
+                        <h6 class="timeline-title">2018</h6>
                         <!-- TIMELINE TITLE INFO -->
                         <div class="timeline-info">
                             <h6>
-                                <small>Libra IT Solutions</small>
+                                <small>ООО Яндекс</small>
                             </h6>
                             <h6>
-                                <small>Jan 2014 - Mar 2015</small>
+                                <small>18.10.2018 - 31.12.2019</small>
                             </h6>
                         </div>
-                        <!-- TIMELINE PARAGRAPH -->
-                        <p>
-                            I started my expertise carrier here, spent tow years learning and working
-                            in various UX/UI aspects. I worked on about 70+ projects local and online.
-                        </p>
-
+                        <!-- BUTTON TRIGGER MODAL -->
+                        <a target="_blank" href="https://blog.anton-c.ru/2025/02/15/%D0%BE%D0%BF%D1%8B%D1%82-%D1%80%D0%B0%D0%B1%D0%BE%D1%82%D1%8B/#ya" class="modal-dot" data-toggle="modal" data-target="#myModal-4">
+                            <i class="fa fa-ellipsis-h" aria-hidden="true"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <!-- THIRD TIMELINE -->
+            <div class="timeline-block">
+                <!-- DOT -->
+                <div class="timeline-dot"><h6>P</h6></div>
+                <!-- TIMELINE CONTENT -->
+                <div class="card timeline-content">
+                    <div class="card-content">
+                        <!-- TIMELINE TITLE -->
+                        <h6 class="timeline-title">2017</h6>
+                        <!-- TIMELINE TITLE INFO -->
+                        <div class="timeline-info">
+                            <h6>
+                                <small>ООО "Продевелопмент"</small>
+                            </h6>
+                            <h6>
+                                <small>18.10.2017 - 23.11.2020</small>
+                            </h6>
+                        </div>
+                        <!-- BUTTON TRIGGER MODAL -->
+                        <a target="_blank" href="https://blog.anton-c.ru/2025/02/15/%D0%BE%D0%BF%D1%8B%D1%82-%D1%80%D0%B0%D0%B1%D0%BE%D1%82%D1%8B/#p" class="modal-dot" data-toggle="modal" data-target="#myModal-4">
+                            <i class="fa fa-ellipsis-h" aria-hidden="true"></i>
+                        </a>
                     </div>
                 </div>
             </div>
@@ -714,28 +803,22 @@
             <!-- FOURTH TIMELINE -->
             <div class="timeline-block">
                 <!-- DOT -->
-                <div class="timeline-dot"><h6>S</h6></div>
+                <div class="timeline-dot"><h6>P</h6></div>
                 <!-- TIMELINE CONTENT -->
                 <div class="card timeline-content">
                     <div class="card-content">
                         <!-- TIMELINE TITLE -->
-                        <h6 class="timeline-title">Senior Developer</h6>
+                        <h6 class="timeline-title">Подробнее</h6>
                         <!-- TIMELINE TITLE INFO -->
                         <div class="timeline-info">
                             <h6>
-                                <small>WebStyle Technologies</small>
-                            </h6>
-                            <h6>
-                                <small>Jan 2016 - Continue..</small>
+                                <small>2002-20016</small>
                             </h6>
                         </div>
                         <!-- TIMELINE PARAGRAPH -->
-                        <p>
-                            I recently joined here, currently working on various development
-                            aspects. I already worked on about..
-                        </p>
+                         
                         <!-- BUTTON TRIGGER MODAL -->
-                        <a href="#" class="modal-dot" data-toggle="modal" data-target="#myModal-5">
+                        <a target="_blank" href="https://blog.anton-c.ru/2025/02/15/%D0%BE%D0%BF%D1%8B%D1%82-%D1%80%D0%B0%D0%B1%D0%BE%D1%82%D1%8B/#2016" class="modal-dot" data-toggle="modal" data-target="#myModal-4">
                             <i class="fa fa-ellipsis-h" aria-hidden="true"></i>
                         </a>
                     </div>
@@ -924,20 +1007,18 @@
     <div class="container">
         <!-- SECTION TITLE -->
         <div class="section-title">
-            <h4 class="text-uppercase text-center"><img src="<?php bloginfo('template_url'); ?>/images/icons/safe.png" alt="demo">Portfolios</h4>
+            <h4 class="text-uppercase text-center"><img src="<?php bloginfo('template_url'); ?>/images/icons/safe.png" alt="demo">Проекты с моим участием</h4>
         </div>
         <div id="portfolios-card" class="row">
 
             <!--OPTIONS-->
-            <ul class="nav nav-tabs">
-                <!--ALL CATEGORIES-->
+<!--             <ul class="nav nav-tabs">
                 <li class="active waves-effect list-shuffle"><a id="all-sample" class="active" href="#all"
                                                                 data-toggle="tab">ALL</a>
-                    <!--CATEGORIES-->
                 <li class="waves-effect list-shuffle"><a class="cate" href="#a" data-toggle="tab">LOGO</a></li>
                 <li class="waves-effect list-shuffle"><a class="cate" href="#b" data-toggle="tab">DRIBBLE</a></li>
                 <li class="waves-effect list-shuffle"><a class="cate" href="#c" data-toggle="tab">WEBSITES</a></li>
-            </ul>
+            </ul> -->
 
             <!--CATEGORIES CONTENT-->
             <div class="tab-content">
@@ -1106,288 +1187,17 @@
                 </div>
             </div>
             <!--PORTFOLIOS ADD GALLERY BUTTON-->
-            <div class="row">
+            <!-- <div class="row">
                 <div class="col-md-12 col-sm-12 col-xs-12">
                     <button id="add-more" class="center-block btn-large waves-effect"><i id="port-add-icon"
                                                                                          class="fa fa-plus"></i>
                     </button>
                 </div>
-            </div>
+            </div> -->
         </div>
     </div>
 </section>
 
-
-<!--==========================================
-                   INTEREST
-===========================================-->
-<section id="interest" class="section">
-    <div class="container">
-        <!-- SECTION TITLE -->
-        <div class="section-title">
-            <h4 class="text-uppercase text-center"><img src="<?php bloginfo('template_url'); ?>/images/icons/heart.png" alt="demo">Interest</h4>
-        </div>
-
-        <div id="interest-card" class="card">
-            <!--INTEREST TEXT-->
-            <div class="card-content">
-                <p>
-                    First of all I love music, country music is my favorite. Love watching
-                    football, movies and playing games with my buddies. I spend quite a lot of time
-                    in traveling and photography, these keeps me fresh for working environment.
-                    I also spend time volunteering at the Red Cross in London, UK each month.
-                </p>
-            </div>
-
-            <!--INTEREST ICONS-->
-            <div class="row no-gutters">
-
-                <!--INTEREST ICON ONE-->
-                <div class="col-md-2 col-sm-4 col-xs-6  box text-center">
-                    <div class="interest-icon">
-                        <i class="fa fa-music"></i>
-                        <span>Music</span>
-                    </div>
-                </div>
-                <!--INTEREST ICON TWO-->
-                <div class="col-md-2 col-sm-4 col-xs-6 box text-center">
-                    <div class="interest-icon-even">
-                        <i class="fa fa-gamepad"></i>
-                        <span>Gaming</span>
-                    </div>
-                </div>
-                <!--INTEREST ICON THREE-->
-                <div class="col-md-2 col-sm-4 col-xs-6 box text-center">
-                    <div class="interest-icon">
-                        <i class="fa fa-camera"></i>
-                        <span>Photography</span>
-                    </div>
-                </div>
-                <!--INTEREST ICON FOUR-->
-                <div class="col-md-2 col-sm-4 col-xs-6 box text-center">
-                    <div class="interest-icon-even">
-                        <i class="fa fa-futbol-o"></i>
-                        <span>Football</span>
-                    </div>
-                </div>
-                <!--INTEREST ICON FIVE-->
-                <div class="col-md-2 col-sm-4 col-xs-6 box text-center">
-                    <div class="interest-icon">
-                        <i class="fa fa-plane"></i>
-                        <span>Traveling</span>
-                    </div>
-                </div>
-                <!--INTEREST ICON SIX-->
-                <div class="col-md-2 col-sm-4 col-xs-6 box text-center">
-                    <div class="interest-icon-even">
-                        <i class="fa fa-film"></i>
-                        <span>Movies</span>
-                    </div>
-                </div>
-
-            </div>
-        </div>
-    </div>
-</section>
-
-
-<!--==========================================
-             TESTIMONIALS AND CLIENTS
-===========================================-->
-<section id="testimonials" class="section">
-    <div class="container">
-        <!-- SECTION TITLE -->
-        <div class="section-title">
-            <h4 class="text-uppercase text-center"><img src="<?php bloginfo('template_url'); ?>/images/icons/handshake.png" alt="demo">Testimonials</h4>
-        </div>
-        <div id="testimonials-card" class="row card">
-            <div class="col-md-12 col-xs-12">
-
-                <!-- SLIDER STRUCTURE -->
-                <div id="clients-slider"
-                     class="swiper-container swiper-container-clients">
-                    <div class="swiper-wrapper">
-                        <!-- SLIDE ONE -->
-                        <div class="swiper-slide">
-                            <div class="col-md-12">
-                                <!--CLIENT IMAGE-->
-                                <div class="client-img center-block">
-                                    <img alt="client-image" class="center-block" src="<?php bloginfo('template_url'); ?>/images/clients/client-1.png">
-                                </div>
-                                <!--CLIENT QUOTE-->
-                                <blockquote>
-                                    I work with John on several web development projects and I find him to be extremely
-                                    creative and a technical Front End Developer. Jone expertise involves building
-                                    complex
-                                    Responsive Design layouts using HTML 5, CSS3, and JavaScript.
-                                    I work with John on several web development projects and I find him to be extremely
-                                    creative and a technical Front End Developer. Jone expertise involves building
-                                    complex
-                                    Responsive Design layouts using HTML 5, CSS3, and JavaScript.
-                                    <cite>Mike, CEO, IT World.</cite>
-                                </blockquote>
-                            </div>
-                        </div>
-
-                        <!-- SLIDE TWO -->
-                        <div class="swiper-slide">
-                            <div class="col-md-12">
-                                <!--CLIENT IMAGE-->
-                                <div class="client-img center-block">
-                                    <img alt="client-image" class="center-block" src="<?php bloginfo('template_url'); ?>/images/clients/client-2.png">
-                                </div>
-                                <!--CLIENT QUOTE-->
-                                <blockquote>
-                                    I work with John on several web development projects and I find him to be extremely
-                                    creative and a technical Front End Developer.
-                                    <cite>Mike, CEO, IT World.</cite>
-                                </blockquote>
-                            </div>
-                        </div>
-
-                        <!-- SLIDE THREE -->
-                        <div class="swiper-slide">
-                            <div class="col-md-12">
-                                <!--CLIENT IMAGE-->
-                                <div class="client-img center-block">
-                                    <img alt="client-image" class="center-block" src="<?php bloginfo('template_url'); ?>/images/clients/client-3.png">
-                                </div>
-                                <!--CLIENT QUOTE-->
-                                <blockquote>
-                                    I work with John on several web development projects and I find him to be extremely
-                                    creative and a technical Front End Developer. Jone expertise involves building
-                                    complex
-                                    Responsive Design layouts using HTML 5, CSS3, and JavaScript.
-                                    <cite>Mike, CEO, IT World.</cite>
-                                </blockquote>
-                            </div>
-                        </div>
-                    </div>
-                    <!-- Add Pagination -->
-                    <div class="swiper-pagination swiper-pagination-clients"></div>
-                </div>
-            </div>
-        </div>
-        <div id="clients">
-            <div class="row">
-                <div class="col-md-12">
-                    <div class="card">
-                        <div class="clients-wrap">
-                            <!--CLIENT LOGO'S-->
-                            <ul id="clients-list" class="clearfix">
-                                <li><img src="<?php bloginfo('template_url'); ?>/images/logos/logo1.png" alt="client-logo"></li>
-                                <li><img src="<?php bloginfo('template_url'); ?>/images/logos/logo2.png" alt="client-logo"></li>
-                                <li><img src="<?php bloginfo('template_url'); ?>/images/logos/logo3.png" alt="client-logo"></li>
-                                <li><img src="<?php bloginfo('template_url'); ?>/images/logos/logo4.png" alt="client-logo"></li>
-                                <li><img src="<?php bloginfo('template_url'); ?>/images/logos/logo5.png" alt="client-logo"></li>
-                                <li><img src="<?php bloginfo('template_url'); ?>/images/logos/logo6.png" alt="client-logo"></li>
-                                <li><img src="<?php bloginfo('template_url'); ?>/images/logos/logo7.png" alt="client-logo"></li>
-                                <li><img src="<?php bloginfo('template_url'); ?>/images/logos/logo8.png" alt="client-logo"></li>
-                                <li><img src="<?php bloginfo('template_url'); ?>/images/logos/logo9.png" alt="client-logo"></li>
-                            </ul>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-</section>
-
-<!--==========================================
-             PRICING TABLE
-===========================================-->
-<section id="pricing-table" class="section">
-    <div class="container">
-        <!--SECTION TITLE-->
-        <div class="section-title">
-            <h4 class="text-uppercase text-center"><img src="<?php bloginfo('template_url'); ?>/images/icons/lightning.png" alt="demo">Pricing</h4>
-        </div>
-        <!--PRICING TABLES-->
-        <div id="pricing-card" class="row">
-            <!--PRICING ONE-->
-            <div id="p-one" class="col-md-4 col-sm-4 col-xs-12">
-                <div class="pricing">
-                    <div class="card">
-                        <!--PRICING TOP-->
-                        <div class="pricing-top">
-                            <p><sup>$</sup><em>50</em>/mo</p>
-                            <span>Starter</span>
-                        </div>
-                        <!--PRICING DETAILS-->
-                        <div class="pricing-bottom text-center text-capitalize">
-                            <ul>
-                                <li>2 GB Bandwidth</li>
-                                <li>5 GB Disk Space</li>
-                                <li>5 Databases</li>
-                                <li>Free Domain</li>
-                                <li>5 Subdomain</li>
-                            </ul>
-                        </div>
-                        <!--BUTTON-->
-                        <div class="card-action text-center">
-                            <a class="waves-effect btn">Purchase</a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-            <!--PRICING TWO-->
-            <div id="p-three" class="col-md-4 col-sm-4 col-xs-12">
-                <div class="pricing">
-                    <div class="card">
-                        <!--PRICING TOP-->
-                        <div class="pricing-top">
-                            <p><sup>$</sup><em>200</em>/mo</p>
-                            <span>Ultimate</span>
-                        </div>
-                        <!--PRICING DETAILS-->
-                        <div class="pricing-bottom text-center text-capitalize">
-                            <ul>
-                                <li>∞ Bandwidth</li>
-                                <li>∞ Disk Space</li>
-                                <li>∞ Databases</li>
-                                <li>Free Domain</li>
-                                <li>∞ Subdomain</li>
-                            </ul>
-                        </div>
-                        <!--BUTTON-->
-                        <div class="card-action text-center">
-                            <a class="waves-effect btn">Purchase</a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-            <!--PRICING THREE-->
-            <div id="p-two" class="col-md-4 col-sm-4 col-xs-12">
-                <div class="pricing">
-                    <div class="card">
-                        <!--PRICING TOP-->
-                        <div class="pricing-top">
-                            <p><sup>$</sup><em>100</em>/mo</p>
-                            <span>Business</span>
-                        </div>
-                        <!--PRICING DETAILS-->
-                        <div class="pricing-bottom text-center text-capitalize">
-                            <ul>
-                                <li>5 GB Bandwidth</li>
-                                <li>25 GB Disk Space</li>
-                                <li>10 Databases</li>
-                                <li>Free Domain</li>
-                                <li>15 Subdomain</li>
-                            </ul>
-                        </div>
-                        <!--BUTTON-->
-                        <div class="card-action text-center">
-                            <a class="waves-effect btn">Purchase</a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-        </div>
-    </div>
-</section>
 
 <!--==========================================
              BLOG
@@ -1396,7 +1206,7 @@
     <div class="container">
         <!-- SECTION TITLE -->
         <div class="section-title">
-            <h4 class="text-uppercase text-center"><img src="<?php bloginfo('template_url'); ?>/images/icons/post-it.png" alt="demo">Blog</h4>
+            <h4 class="text-uppercase text-center"><img src="<?php bloginfo('template_url'); ?>/images/icons/post-it.png" alt="demo">Мой блог</h4>
         </div>
         <div id="blog-card" class="row">
             <div class="col-md-12 col-sm-12">
@@ -1573,10 +1383,12 @@
     <div class="container">
         <!--FOOTER DETAILS-->
         <p class="text-center">
-            © Material CV. All right reserved by
+            © Черноусов Антон. На базе шаблона Material CV от
             <a href="http://trimatrixlab.com/" target="_blank">
-                <strong>Trimatrixlab</strong>
+                <strong>Trimatrixlab</strong>.
             </a>
+            <br/>
+            <a href="<?php bloginfo('template_url'); ?>/67438529-flatrica-material-cvresume-license.pdf" target="_blank">Документы на право использования темы Material CV.</a>
         </p>
     </div>
 </footer>
