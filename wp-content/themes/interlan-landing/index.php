@@ -238,7 +238,7 @@
                     <div class="card-content">
                         <!-- ABOUT PARAGRAPH -->
                         <p>
-                        Привет! Меня зовут Антон Черноусов. Я DevOps инженер с 18-и летним стажем работы в IT-сфере. По мимо рабоы в DevOps направлении я так-же работал программистом и системным администратором. Специализируюсь на Linux и Open Source решениях. На данный момент открыт к предложениям работы как на полный рабочий день, так и по проектно или почасовые задачи. Единственное требование, это удаленный формат работы. Так-же рассматриваю предложения по участию в стартапах.
+                        Меня зовут Антон Черноусов. Я DevOps инженер с 18-и летним стажем работы в IT-сфере. Помимо работы в DevOps направлении я также работал программистом и системным администратором. Специализируюсь на Linux и Open Source решениях. На данный момент открыт к предложениям работы как на полный рабочий день, так и по проектно или почасовые задачи. Единственное требование, это удаленный формат работы. Также рассматриваю предложения по участию в стартапах.
                         </p>
                     </div>
 
@@ -248,7 +248,7 @@
                             <!-- DOWNLOAD CV BUTTON -->
                             <a href="<?php bloginfo('template_url'); ?>/resume.doc" class="btn waves-effect">Скачать резюме</a>
                             <!-- CONTACT BUTTON -->
-                            <a href="#contact" class="btn waves-effect">Связаться</a>
+                            <!-- <a href="#contact" class="btn waves-effect">Связаться</a> -->
                         </div>
                     </div>
                 </div>
@@ -1007,7 +1007,7 @@
     <div class="container">
         <!-- SECTION TITLE -->
         <div class="section-title">
-            <h4 class="text-uppercase text-center"><img src="<?php bloginfo('template_url'); ?>/images/icons/safe.png" alt="demo">Проекты с моим участием</h4>
+            <h4 class="text-uppercase text-center"><img src="<?php bloginfo('template_url'); ?>/images/icons/safe.png" alt="demo">Крупные проекты с моим участием</h4>
         </div>
         <div id="portfolios-card" class="row">
 
@@ -1032,11 +1032,11 @@
                     <!--CATEGORY CONTENT ONE BIG-->
                     <div class="col-md-4 col-sm-12 col-xs-12 grid big inLeft">
                         <figure class="port-effect-scale">
-                            <img src="<?php bloginfo('template_url'); ?>/images/portfolios/big-1.jpg" class="img-responsive" alt="portfolio-demo"/>
+                            <img src="<?php bloginfo('template_url'); ?>/vivus.kz.png" class="img-responsive" alt="portfolio-demo"/>
                             <figcaption>
-                                <h2>Lightbox <span> IMAGE</span></h2>
-                                <p>Two Hover Effect For Portfolio Grid Blocks. Its Scale</p>
-                                <a href="<?php bloginfo('template_url'); ?>/images/portfolios/big-1.jpg" class="popup-image" data-effect="mfp-3d-unfold">View
+                                <h2>Сайт - <span> vivus.kz</span></h2>
+                                <p>Миграция компонентов инфраструктуры в Docker и единый Docker Compose</p>
+                                <a href="<?php bloginfo('template_url'); ?>/vivus.kz.png" class="popup-image" data-effect="mfp-3d-unfold">View
                                     more</a>
                             </figcaption>
                         </figure>
@@ -1045,12 +1045,12 @@
                     <!--CATEGORY CONTENT TWO SMALL-->
                     <div class="col-md-4 col-sm-6 col-xs-12 grid inRight">
                         <figure class="port-effect-scale">
-                            <img src="<?php bloginfo('template_url'); ?>/images/portfolios/portfolio-1.jpg" class="img-responsive" alt="portfolio-demo"/>
+                            <img src="<?php bloginfo('template_url'); ?>/spasibo-trevel.jpg" class="img-responsive" alt="portfolio-demo"/>
                             <figcaption>
-                                <h2><i class="fa fa-play-circle" aria-hidden="true"></i>Lightbox <span> Video</span>
+                                <h2>Спасибо от <span> Сбербанка</span>
                                 </h2>
-                                <p>I designed this for a client for his cafe.</p>
-                                <a class="popup-vimeo" href="https://vimeo.com/45830194">View more</a>
+                                <p>Участвовал в запуске проекта в качестве системного администратора.</p>
+                                <a class="popup-image" href="<?php bloginfo('template_url'); ?>/spasibo-trevel.jpg">View more</a>
                             </figcaption>
                         </figure>
                     </div>
@@ -1058,11 +1058,11 @@
                     <!--CATEGORY CONTENT THREE SMALL-->
                     <div class="col-md-4 col-sm-6 col-xs-12 grid inRight">
                         <figure class="port-effect-up">
-                            <img src="<?php bloginfo('template_url'); ?>/images/portfolios/portfolio-2.jpg" class="img-responsive" alt="portfolio-demo"/>
+                            <img src="<?php bloginfo('template_url'); ?>/vivus.com.mx.png" class="img-responsive" alt="portfolio-demo"/>
                             <figcaption>
-                                <h2>Lightbox <span> IMAGE</span></h2>
-                                <p>Two Hover Effect For Portfolio Grid Blocks. Its Up</p>
-                                <a href="<?php bloginfo('template_url'); ?>/images/portfolios/portfolio-2.jpg" class="popup-image"
+                                <h2>Сайт - <span> vivus.mx.com</span></h2>
+                                <p>Запуск проекта микро-финансовой организации в Мексике.</p>
+                                <a href="<?php bloginfo('template_url'); ?>/vivus.com.mx.png" class="popup-image"
                                    data-effect="mfp-move-horizontal">View more</a>
                             </figcaption>
                         </figure>
@@ -1215,87 +1215,85 @@
                     <div class="blog odd">
                         <!--IMAGE-->
                         <div class="image">
-                            <img alt="blog-image" src="<?php bloginfo('template_url'); ?>/images/blog/blog-2.png"/>
+                            <img alt="blog-image" src="<?php bloginfo('template_url'); ?>/images/blog/kubuntu.png"/>
                             <div class="image-overlay">
                                 <div class="comments">
-                                    <i class="fa fa-user"></i> John Doe
+                                    <i class="fa fa-user"></i> Черноусов Антон
                                     <i class="fa fa-clock-o"></i>
-                                    <time datetime="2045-08-16">August 7, 2020</time>
-                                    <i class="fa fa-comments"></i> 168
+                                    <time datetime="2025-02-18">18.02.2025</time>
+                                    <!-- <i class="fa fa-comments"></i> 168 -->
                                 </div>
                             </div>
                         </div>
                         <!--DETAILS-->
                         <div class="content">
                             <ol class="breadcrumb">
-                                <li><a href="#">Frontend</a></li>
-                                <li><a href="#">Design</a></li>
-                                <li class="active">Material</li>
+                                <li><a target="_blank" href="https://blog.anton-c.ru/category/%d0%b0%d0%b4%d0%bc%d0%b8%d0%bd%d0%b8%d1%81%d1%82%d1%80%d0%b8%d1%80%d0%be%d0%b2%d0%b0%d0%bd%d0%b8%d0%b5/">Администрирование</a></li>
+                                <li><a target="_blank" href="https://blog.anton-c.ru/category/%d0%b0%d0%b4%d0%bc%d0%b8%d0%bd%d0%b8%d1%81%d1%82%d1%80%d0%b8%d1%80%d0%be%d0%b2%d0%b0%d0%bd%d0%b8%d0%b5/linux/">Linux</a></li>
+                                <li class="active"><a target="_blank" href="https://blog.anton-c.ru/category/%d0%b0%d0%b4%d0%bc%d0%b8%d0%bd%d0%b8%d1%81%d1%82%d1%80%d0%b8%d1%80%d0%be%d0%b2%d0%b0%d0%bd%d0%b8%d0%b5/linux/ubuntu/">Ubuntu</a></li>
                             </ol>
-                            <h6>Material Design</h6>
+                            <h6>Kubuntu Linux</h6>
                             <p>
-                                Web design encompasses many different skills and disciplines in the production
-                                of websites.Web design include web graphic design, interface design etc.
+                                Как я уже говорил, у меня большой опыт администрирования, как Windows, так и Linux. Предпочтение я все же отдаю Linux и Open Source решениям.
+                                Самым лучшим на мой взгляд для использования в качестве рабочей станции дистрибутивом является Kubuntu и я им активно пользуюсь.
                             </p>
-                            <a class="forward" href="single-blog.html">Read More</a>
+                            <a target="_blank" class="forward" href="https://blog.anton-c.ru/category/%d0%b0%d0%b4%d0%bc%d0%b8%d0%bd%d0%b8%d1%81%d1%82%d1%80%d0%b8%d1%80%d0%be%d0%b2%d0%b0%d0%bd%d0%b8%d0%b5/linux/ubuntu/kubuntu/">Смотреть заметки</a>
                         </div>
                     </div>
                     <!--BLOG EVEN-->
                     <div class="blog even">
                         <!--IMAGE-->
                         <div class="image">
-                            <img alt="blog-image" src="<?php bloginfo('template_url'); ?>/images/blog/blog-1.png"/>
+                            <img alt="blog-image" src="<?php bloginfo('template_url'); ?>/images/blog/spring.png"/>
                             <div class="image-overlay">
                                 <div class="comments">
-                                    <i class="fa fa-user"></i> John Doe
+                                    <i class="fa fa-user"></i> Черноусов Антон
                                     <i class="fa fa-clock-o"></i>
-                                    <time datetime="2045-08-16">August 7, 2020</time>
-                                    <i class="fa fa-comments"></i> 168
+                                    <time datetime="2025-02-19">19.02.2025</time>
+                                    <!-- <i class="fa fa-comments"></i> 168 -->
                                 </div>
                             </div>
                         </div>
                         <!--DETAILS-->
                         <div class="content">
                             <ol class="breadcrumb">
-                                <li><a href="#">Backend</a></li>
-                                <li><a href="#">Dev</a></li>
-                                <li class="active">Shortcuts</li>
+                                <li><a target="_blank" href="https://blog.anton-c.ru/category/devops/">DevOps</a></li>
+                                <li><a target="_blank" href="https://blog.anton-c.ru/category/devops/gitlab/">Gitlab</a></li>
+                                <li class="active"><a target="_blank" href="https://blog.anton-c.ru/category/devops/gitlab/gitlab-runner/">Gitlab runner</a></li>
                             </ol>
-                            <h6>Development Shortcut</h6>
+                            <h6>Оптимизация сборки Java Spring приложений</h6>
                             <p>
-                                Web development is a broad term for the work involved in developing a web site
-                                for the Internet or an intranet. Now lets get a bit deeper in this topic
+                                Продолжаем наши приключения с оптимизацией сборки Java Spring приложений и собственно и прикинем, что мы можем сделать и даже сделаем.
+                                Первое, и самое простое, что приходит в голову, это поменять политику загрузки образов с постоянно скачивать, на скипать если такой образ уже есть.
                             </p>
-                            <a class="forward" href="single-blog.html">Read More</a>
+                            <a class="forward" href="https://blog.anton-c.ru/category/devops/gitlab/gitlab-runner/">Смотреть заметки</a>
                         </div>
                     </div>
                     <!--BLOG ODD-->
                     <div class="blog odd">
                         <!--IMAGE-->
                         <div class="image">
-                            <img alt="blog-image" src="<?php bloginfo('template_url'); ?>/images/blog/blog-3.png"/>
+                            <img alt="blog-image" src="<?php bloginfo('template_url'); ?>/family.jpg"/>
                             <div class="image-overlay">
                                 <div class="comments">
-                                    <i class="fa fa-user"></i> John Doe
+                                    <i class="fa fa-user"></i> Черноусов Антон
                                     <i class="fa fa-clock-o"></i>
-                                    <time datetime="2045-08-16">August 7, 2020</time>
-                                    <i class="fa fa-comments"></i> 168
+                                    <time datetime="2045-08-16">20.02.2025</time>
+                                    <!-- <i class="fa fa-comments"></i> 168 -->
                                 </div>
                             </div>
                         </div>
                         <!--DETAILS-->
                         <div class="content">
                             <ol class="breadcrumb">
-                                <li><a href="#">Frontend</a></li>
-                                <li><a href="#">Specs</a></li>
-                                <li class="active">UI</li>
+                                <li><a target="_blank"  href="https://blog.anton-c.ru/category/%d0%b1%d0%bb%d0%be%d0%b3/">Блог</a></li>
+                                <li class="active"><a target="_blank" href="https://blog.anton-c.ru/category/%d0%b1%d0%bb%d0%be%d0%b3/family/">Семья</a></li>
                             </ol>
-                            <h6>A Good UI</h6>
+                            <h6>Веселый 2024-ый год</h6>
                             <p>
-                                The user interface (UI), in the industrial design field of human–machine
-                                interaction, is the space where interactions between humans and machines occur.
+                                Наконец-то дошли руки разобрать фотографии с телефона. Тут конечно не все, но поделюсь яркими воспоминаниями.
                             </p>
-                            <a class="forward" href="single-blog.html">Read More</a>
+                            <a class="forward" target="_blank" href="https://blog.anton-c.ru/category/%d0%b1%d0%bb%d0%be%d0%b3/">Смотреть заметки</a>
                         </div>
                     </div>
 
@@ -1305,68 +1303,6 @@
     </div>
 </section>
 
-<!--==========================================
-                  CONTACT
-===========================================-->
-<section id="contact" class="section">
-    <div class="container">
-        <!-- SECTION TITLE -->
-        <div class="section-title">
-            <h4 class="text-uppercase text-center"><img src="<?php bloginfo('template_url'); ?>/images/icons/envelope.png" alt="demo">Contact</h4>
-        </div>
-        <div class="row">
-            <div id="contact-card" class="col-md-5 col-sm-12 col-xs-12">
-                <!-- CONTACT FORM -->
-                <div class="card">
-                    <div class="card-content">
-                        <form id="contact-form" name="c-form">
-                            <!-- NAME -->
-                            <div class="input-field">
-                                <input id="first_name" type="text" class="validate" name="first_name" required>
-                                <label for="first_name">Name</label>
-                            </div>
-                            <!--SUBJECT-->
-                            <div class="input-field">
-                                <input id="sub" type="text" class="validate" name="sub">
-                                <label for="sub">Subject</label>
-                            </div>
-                            <!--EMAIL-->
-                            <div class="input-field">
-                                <input id="email" type="email" class="validate" name="email" required>
-                                <label for="email">Email</label>
-                            </div>
-                            <!--MESSAGE-->
-                            <div class="input-field">
-                                <textarea id="textarea1" class="materialize-textarea" name="message"
-                                          required></textarea>
-                                <label for="textarea1">Message</label>
-                            </div>
-                            <!-- SEND BUTTON -->
-                            <div class="contact-send">
-                                <button id="submit" name="contactSubmit" type="submit" value="Submit"
-                                        class="btn waves-effect">Send
-                                </button>
-                            </div>
-                        </form>
-                    </div>
-                    <!--FORM LOADER-->
-                    <div id="form-loader" class="progress is-hidden">
-                        <div class="indeterminate"></div>
-                    </div>
-                </div>
-            </div>
-
-            <div class="col-md-7 col-sm-12 col-xs-12">
-                <!-- CONTACT MAP -->
-                <div id="map-card" class="card">
-                    <!-- MAP -->
-                    <div id="myMap"></div>
-                </div>
-            </div>
-
-        </div>
-    </div>
-</section>
 
 <!--==========================================
                      SCROLL TO TOP
